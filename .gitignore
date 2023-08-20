@@ -1,2 +1,15 @@
 # Ignore classes folder
 Clases/
+
+
+
+## Lab 1
+
+# Ignore videos folder
+Labs/Lab 1/videos/
+
+# Ignore .txt files
+Labs/Lab 1/*/*.txt
+
+# Except for texts/171.txt
+!Labs/Lab 1/texts/171.txt
