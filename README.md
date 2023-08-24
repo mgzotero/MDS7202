@@ -4,7 +4,7 @@ Repository for the "MDS7202 - Scientific Programming Laboratory for Data Science
 
 ## Student
 
-Mario González Otero (mgzotero)
+Mario González Otero (mgzotero).
 
 ## Content
 
