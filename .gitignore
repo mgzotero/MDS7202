@@ -1,6 +1,8 @@
 # Ignore classes folder
 Clases/
 
+# Ignore .pyc files
+*.pyc
 
 
 ## Lab 1
