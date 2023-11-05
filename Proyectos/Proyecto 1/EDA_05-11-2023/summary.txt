@@ -1,0 +1,62 @@
+=== RESUMEN DE LOS DATOS ===
+
+
+
+=== TIPOS DE VARIABLES ===
+-- ID: int64
+-- Name: object
+-- Sex: object
+-- Team: object
+-- NOC: object
+-- Games: object
+-- Year: int64
+-- Season: object
+-- City: object
+-- Sport: object
+-- Event: object
+-- Medal: object
+-- age-height-weight: object
+
+=== VALORES FALTANTES ===
+-- ID: 0 (0.00%)
+-- Name: 0 (0.00%)
+-- Sex: 0 (0.00%)
+-- Team: 0 (0.00%)
+-- NOC: 0 (0.00%)
+-- Games: 0 (0.00%)
+-- Year: 0 (0.00%)
+-- Season: 0 (0.00%)
+-- City: 0 (0.00%)
+-- Sport: 0 (0.00%)
+-- Event: 0 (0.00%)
+-- Medal: 231333 (100.00%)
+-- age-height-weight: 0 (0.00%)
+
+=== VALORES ÚNICOS DE LAS VARIABLES CATEGÓRICAS ===
+-- Name: 134732 valores distintos
+-- Sex: 2 valores distintos
+-- Team: 1184 valores distintos
+-- NOC: 230 valores distintos
+-- Games: 51 valores distintos
+-- Season: 2 valores distintos
+-- City: 42 valores distintos
+-- Sport: 66 valores distintos
+-- Event: 765 valores distintos
+-- Medal: 3 valores distintos
+-- age-height-weight: 82971 valores distintos
+
+=== RESUMEN DE LAS VARIABLES NUMÉRICAS ===
+-- ID
+Ceros: 0 | Negativos: 0 | Outliers (IQR): 0
+Mínimo: 1.0 | Máximo: 135571.0 | Promedio: 68248.95
+Percentil 25: 34643.0 | Percentil 50: 68205.0 | Percentil 75: 102097.25 | Percentil 100: 135571.0
+-- Year
+Ceros: 0 | Negativos: 0 | Outliers (IQR): 380
+Mínimo: 1896.0 | Máximo: 2016.0 | Promedio: 1978.38
+Percentil 25: 1960.0 | Percentil 50: 1988.0 | Percentil 75: 2002.0 | Percentil 100: 2016.0
+
+
+
+=== ALERTA ===
+Las siguientes columnas sobrepasan el límite de porcentaje de nulos (50.00%):
+-- Medal
