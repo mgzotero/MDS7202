@@ -15,7 +15,9 @@
 -- Sport: object
 -- Event: object
 -- Medal: object
--- age-height-weight: object
+-- Age: float64
+-- Height: float64
+-- Weight: float64
 
 === VALORES FALTANTES ===
 -- ID: 0 (0.00%)
@@ -29,34 +31,46 @@
 -- City: 0 (0.00%)
 -- Sport: 0 (0.00%)
 -- Event: 0 (0.00%)
--- Medal: 231333 (100.00%)
--- age-height-weight: 0 (0.00%)
+-- Medal: 0 (0.00%)
+-- Age: 0 (0.00%)
+-- Height: 0 (0.00%)
+-- Weight: 0 (0.00%)
 
 === VALORES ÚNICOS DE LAS VARIABLES CATEGÓRICAS ===
--- Name: 134732 valores distintos
+-- Name: 95785 valores distintos
 -- Sex: 2 valores distintos
--- Team: 1184 valores distintos
--- NOC: 230 valores distintos
--- Games: 51 valores distintos
+-- Team: 623 valores distintos
+-- NOC: 226 valores distintos
+-- Games: 50 valores distintos
 -- Season: 2 valores distintos
 -- City: 42 valores distintos
--- Sport: 66 valores distintos
--- Event: 765 valores distintos
--- Medal: 3 valores distintos
--- age-height-weight: 82971 valores distintos
+-- Sport: 56 valores distintos
+-- Event: 578 valores distintos
+-- Medal: 4 valores distintos
 
 === RESUMEN DE LAS VARIABLES NUMÉRICAS ===
 -- ID
 Ceros: 0 | Negativos: 0 | Outliers (IQR): 0
-Mínimo: 1.0 | Máximo: 135571.0 | Promedio: 68248.95
-Percentil 25: 34643.0 | Percentil 50: 68205.0 | Percentil 75: 102097.25 | Percentil 100: 135571.0
+Mínimo: 1.0 | Máximo: 135571.0 | Promedio: 68649.62
+Percentil 25: 35277.5 | Percentil 50: 68635.0 | Percentil 75: 102292.5 | Percentil 100: 135571.0
 -- Year
-Ceros: 0 | Negativos: 0 | Outliers (IQR): 380
-Mínimo: 1896.0 | Máximo: 2016.0 | Promedio: 1978.38
-Percentil 25: 1960.0 | Percentil 50: 1988.0 | Percentil 75: 2002.0 | Percentil 100: 2016.0
+Ceros: 0 | Negativos: 0 | Outliers (IQR): 2880
+Mínimo: 1900.0 | Máximo: 2016.0 | Promedio: 1989.66
+Percentil 25: 1976.0 | Percentil 50: 1992.0 | Percentil 75: 2006.0 | Percentil 100: 2016.0
+-- Age
+Ceros: 0 | Negativos: 0 | Outliers (IQR): 780
+Mínimo: 12.0 | Máximo: 39.0 | Promedio: 24.66
+Percentil 25: 21.0 | Percentil 50: 24.0 | Percentil 75: 28.0 | Percentil 100: 39.0
+-- Height
+Ceros: 0 | Negativos: 0 | Outliers (IQR): 1278
+Mínimo: 140.0 | Máximo: 219.0 | Promedio: 175.19
+Percentil 25: 168.0 | Percentil 50: 175.0 | Percentil 75: 182.0 | Percentil 100: 219.0
+-- Weight
+Ceros: 0 | Negativos: 0 | Outliers (IQR): 521
+Mínimo: 33.0 | Máximo: 108.5 | Promedio: 69.93
+Percentil 25: 60.0 | Percentil 50: 69.0 | Percentil 75: 78.0 | Percentil 100: 108.5
 
 
 
 === ALERTA ===
 Las siguientes columnas sobrepasan el límite de porcentaje de nulos (30.00%):
--- Medal
